@@ -10971,3 +10971,49 @@ nav #Navber .navbar-nav .nav-item #post-link {
   padding-right: 1rem;
 }
 
+nav #Navber .navbar-nav .nav-item #register {
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
+#login-wrapper {
+  background-color: #55C501;
+}
+
+#login-wrapper .col-7 {
+  padding-left: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#login-wrapper .col-7 h1 {
+  font-size: 50px;
+}
+
+#login-wrapper .col-5 form {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+#login-wrapper .col-5 form table {
+  border-collapse: separate;
+  border-spacing: 0px 15px;
+}
+
+#login-wrapper .col-5 form table tr th {
+  font-size: 10px;
+  color: white;
+  width: 80px;
+}
+
+#login-wrapper .col-5 form table tr td .form-control {
+  height: 45px;
+}
+
+#login-wrapper .col-5 form table tr td input[type=submit] {
+  width: 110px;
+  color: white;
+  background-color: #55C501;
+  border: solid 2px white;
+}
+
