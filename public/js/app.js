@@ -37378,10 +37378,34 @@ module.exports = function(module) {
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
   \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+!(function webpackMissingModule() { var e = new Error("Cannot find module 'marked'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+ // マークダウンをプレビュー画面に表示する
+
+$(function () {
+  !(function webpackMissingModule() { var e = new Error("Cannot find module 'marked'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()).setOptions({
+    langPrefix: '',
+    breaks: true,
+    sanitize: true
+  });
+  $('#markdown_editor_textarea').keyup(function () {
+    var html = !(function webpackMissingModule() { var e = new Error("Cannot find module 'marked'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())(getHtml($(this).val()));
+    $('#markdown_preview').html(html);
+  }); // 比較演算子が &lt; 等になるので置換
+
+  function getHtml(html) {
+    html = html.replace(/&lt;/g, '<');
+    html = html.replace(/&gt;/g, '>');
+    html = html.replace(/&amp;/g, '&');
+    return html;
+  }
+});
 
 /***/ }),
 
