@@ -54,6 +54,7 @@
           </form>
         </div>
       </li>
+      @else
       <li class="nav-item ml-2">
         <a class="nav-link text-white" id="register" href="/register">ユーザ登録</a>
       </li>
