@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('top');
-});
+Route::get('/', 'Auth\PostController@showTopPage')->name('top');
 
 Auth::routes();
 
