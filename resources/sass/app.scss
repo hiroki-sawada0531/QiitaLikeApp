@@ -164,3 +164,61 @@ nav {
     color: red;
     font-size: 14px;
 }
+
+.item-page-wrapper {
+    background-color: #f8f9fc;
+    .item-wrapper {
+        background-color: white;
+        margin: 3rem 5rem;
+        padding: 3rem;
+        .item-header {
+            .date {
+                color: gray;
+            }
+        }
+        .item-title {
+            font-size: 2rem;
+            margin-top: 1.2rem;
+            font-weight: bold;
+        }
+        .item-tags {
+            .item-tag {
+                background-color: gray;
+                display: inline-flex;
+                padding: 0.3rem;
+                color: #666;
+            }
+        }
+        .item-body {
+            margin-top: 2rem;
+            h1 {
+                font-size: 1.8rem;
+                font-weight: 700;
+                margin-bottom: 1rem;
+                padding-bottom: 0.2rem;
+                border-bottom: solid 1px #ddd;
+            }
+            h2 {
+                font-size: 1.5rem;
+                margin-bottom: 1rem;
+                padding-bottom: 0.2rem;
+                border-bottom: solid 1px #ddd;
+            }
+            h3 {
+                font-size: 1.2rem;
+                margin-bottom: 1rem;
+                padding-bottom: 0.2rem;
+                border-bottom: solid 1px #ddd;
+            }
+            pre {
+                code {
+                    color: white;
+                    padding: 1.5rem 1rem;
+                    background-color: #364549;
+                    width: 100%;
+                    display: block;
+                }
+            }
+        }
+    }
+}
