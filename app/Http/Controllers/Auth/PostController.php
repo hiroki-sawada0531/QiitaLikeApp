@@ -38,4 +38,10 @@ class PostController extends Controller
         return redirect("/drafts/{$article->id}");
     }
 
+    public function showArticle($id)
+    {
+        $article = Post::Where('id', $id)->first();
+        return view('auth.item', compact('article'));
+    }
+
 }
