@@ -35,7 +35,7 @@ class PostController extends Controller
             'tag3' => $tag3,
             'body' => $request->article,
         ]);
-        return redirect('/');
+        return redirect("/drafts/{$article->id}");
     }
 
 }
