@@ -22,7 +22,7 @@ class PostController extends Controller
             'article' => 'required|string',
         ]);
 
-        $tags = explode('', $request->tags);
+        $tags = explode(' ', $request->tags);
         $tag1 = $tags[0];
         $tag2 = (isset($tags[1]))?$tags[1]:null;
         $tag3 = (isset($tags[2]))?$tags[2]:null;

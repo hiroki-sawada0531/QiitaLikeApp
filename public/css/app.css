@@ -11104,3 +11104,8 @@ nav #Navber .navbar-nav .nav-item #register {
   margin-right: 1rem !important;
 }
 
+.validation {
+  color: red;
+  font-size: 14px;
+}
+
