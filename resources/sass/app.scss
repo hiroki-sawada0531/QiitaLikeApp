@@ -222,3 +222,35 @@ nav {
         }
     }
 }
+
+.top-wrapper {
+  background-color: #F6F6F6;
+  padding: 40px 0px;
+  height: 100vh;
+  .articles-wrapper {
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    .article-box {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      border-bottom: solid 3px #F6F6F6;
+      .article-box-left {
+        height: 40px;
+        width: 40px;
+        background-color: gray;
+        border-radius: 5px;
+      }
+      .article-box-right {
+        padding-left: 20px;
+        .article-title {
+          font-weight: bold;
+        }
+        .article-date {
+          color: gray;
+        }
+      }
+    }
+  }
+}
