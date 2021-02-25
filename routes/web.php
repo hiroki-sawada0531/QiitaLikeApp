@@ -21,3 +21,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/drafts/new', 'Auth\PostController@index')->name('drafts.new');
 
+Route::post('/drafts/new', 'Auth\PostController@postArticle')->name('drafts.new.posts'); 
