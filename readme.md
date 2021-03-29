@@ -38,17 +38,11 @@ https://www.techpit.jp/courses/47
 
 <img src="https://user-images.githubusercontent.com/69971751/112832689-a3c31300-90d0-11eb-852c-39313ba99fc1.png" width=100%>
 
-<br>
-カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
-<br>
-<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=80%>
-<br>
+<h3>3.記事投稿画面</h3>
 
-<h3>3.メモの削除</h3>
+記事のタイトルとタグを記入することが出来ます。マークダウン形式で本文を記入することも出来ます。
 
-メモリストのゴミ箱ボタンをクリックをするとウインドウアラートが出て削除をして大丈夫ですか？と聞かれます。削除しても大丈夫ならOKをクリックすることでメモリストが削除されます。
-
-<img src="https://user-images.githubusercontent.com/69971751/112743724-ac362380-8fd4-11eb-8758-8903054fced8.gif" width=80%>
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/8459/57e038bf-d1e2-43bd-bee7-c9b76a7f725c.png" width=100%>
 
 ## :pencil2:使用方法
 
