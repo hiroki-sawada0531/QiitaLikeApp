@@ -40,11 +40,13 @@ https://www.techpit.jp/courses/47
 
 <h3>3.記事投稿画面</h3>
 
-記事のタイトルとタグを記入することが出来ます。マークダウン形式で本文を記入することも出来ます。
+投稿するボタンを押すと、記事のタイトルとタグを記入することが出来ます。
 
 <img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/8459/57e038bf-d1e2-43bd-bee7-c9b76a7f725c.png" width=100%>
 
 <br>
+
+マークダウン形式で本文を記入することも出来ます。
 
 <img src="https://user-images.githubusercontent.com/69971751/112837017-50ec5a00-90d6-11eb-8fe1-6566ca65a23c.png" width=100%>
 
