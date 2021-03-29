@@ -26,11 +26,11 @@ https://www.techpit.jp/courses/47
 
 ## :memo:アプリの機能
 
-<h3>1.新規リストの作成</h3>
+<h3>1.ログイン機能</h3>
 
-リストを作成ボタンを押すことでリストを新しく作ることが出来ます。鉛筆ボタンを押すとリスト名を編集出来ます。
+ログイン画面からユーザー名とメールアドレスとパスワードを入力してログインが出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743469-8c9dfb80-8fd2-11eb-9a61-3a8e1678591a.gif" width=70%>
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/8458/1ba2b555-681f-4df7-8a40-0bdd1bfaa639.png" width=70%>
 
 <h3>2.メモカードの作成と編集</h3>
 
