@@ -44,11 +44,15 @@ https://www.techpit.jp/courses/47
 
 <img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/8459/57e038bf-d1e2-43bd-bee7-c9b76a7f725c.png" width=100%>
 
+<br>
+
+<img src="https://user-images.githubusercontent.com/69971751/112837017-50ec5a00-90d6-11eb-8fe1-6566ca65a23c.png" width=100%>
+
 ## :pencil2:使用方法
 
 サイトURLにログイン
 <br>
-http://kanban-board-0531.herokuapp.com/
+http://qiitalike.herokuapp.com/
 からアプリのログイン画面に移動します。
 <br>
-ゲストログイン用メールアドレスtest@example.comとパスワード000000を入力してログインします。
+ゲストログイン用ユーザーネームのテスト太郎とメールアドレスtest@example.comとパスワード00000000を入力してログインします。
