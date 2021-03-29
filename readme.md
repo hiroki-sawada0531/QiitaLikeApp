@@ -1,72 +1,60 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+<h2 align="center">Qiita風Markdownエディターアプリ</h2>
+
+<img src="https://user-images.githubusercontent.com/69971751/112813311-07414680-90b9-11eb-8e3b-d6ac53233432.png" width=100%>
+
+## :clap:参考にした学習教材及び製作者様
+https://www.techpit.jp/courses/47
+(※この教材は有料です。)
+<br>講師:鴛海 直輝 様
+
+## :octocat:開発環境
+- Laravel Framework 6.20.16
+- PHP 7.3.11
+- MySQL 8.0.21
+- heroku
+- VSCode（Visual Studio Code）
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+  <a href="https://laravel.com/"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" width="300px;" /></a>
+  <br>
+  <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="110px;" /></a>
+  &emsp;
+  <a href="https://www.mysql.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" height="80px;" /></a>
+  &emsp;
+  <a href="https://heroku.com/"><img src="https://user-images.githubusercontent.com/69971751/112742945-0384c580-8fce-11eb-810b-6c6d433b6142.png" height="80px;" /></a>
 </p>
 
-## About Laravel
+## :memo:アプリの機能
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h3>1.新規リストの作成</h3>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+リストを作成ボタンを押すことでリストを新しく作ることが出来ます。鉛筆ボタンを押すとリスト名を編集出来ます。
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img src="https://user-images.githubusercontent.com/69971751/112743469-8c9dfb80-8fd2-11eb-9a61-3a8e1678591a.gif" width=70%>
 
-## Learning Laravel
+<h3>2.メモカードの作成と編集</h3>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+①.さらにカードを追加ボタンを押すことでカードを新しく作ることが出来ます。<br>②.カードのタイトルとメモしたい内容を入力して下さい。<br>③.書き終えたら緑の作成ボタンを押して下さい。
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<img src="https://user-images.githubusercontent.com/69971751/112743417-231ded00-8fd2-11eb-811b-6988916eed16.gif" width=70%>
 
-## Laravel Sponsors
+<br>
+カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
+<br>
+<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=80%>
+<br>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<h3>3.メモの削除</h3>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+メモリストのゴミ箱ボタンをクリックをするとウインドウアラートが出て削除をして大丈夫ですか？と聞かれます。削除しても大丈夫ならOKをクリックすることでメモリストが削除されます。
 
-## Contributing
+<img src="https://user-images.githubusercontent.com/69971751/112743724-ac362380-8fd4-11eb-8758-8903054fced8.gif" width=80%>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## :pencil2:使用方法
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+サイトURLにログイン
+<br>
+http://kanban-board-0531.herokuapp.com/
+からアプリのログイン画面に移動します。
+<br>
+ゲストログイン用メールアドレスtest@example.comとパスワード000000を入力してログインします。
