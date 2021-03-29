@@ -30,13 +30,13 @@ https://www.techpit.jp/courses/47
 
 ログイン画面からユーザー名とメールアドレスとパスワードを入力してログインが出来ます。
 
-<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/8458/1ba2b555-681f-4df7-8a40-0bdd1bfaa639.png" width=70%>
+<img src="https://techpit-market-prod.s3.amazonaws.com/uploads/part_attachment/file/8458/1ba2b555-681f-4df7-8a40-0bdd1bfaa639.png" width=100%>
 
-<h3>2.メモカードの作成と編集</h3>
+<h3>2.記事一覧表示機能</h3>
 
-①.さらにカードを追加ボタンを押すことでカードを新しく作ることが出来ます。<br>②.カードのタイトルとメモしたい内容を入力して下さい。<br>③.書き終えたら緑の作成ボタンを押して下さい。
+ログインすると記事一覧が表示されます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743417-231ded00-8fd2-11eb-811b-6988916eed16.gif" width=70%>
+<img src="https://user-images.githubusercontent.com/69971751/112832689-a3c31300-90d0-11eb-852c-39313ba99fc1.png" width=100%>
 
 <br>
 カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
