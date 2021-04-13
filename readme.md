@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/69971751/112813311-07414680-90b9-11eb-8e3b-d6ac53233432.png" width=100%>
 
-## :clap:参考にした学習教材及び製作者様
+## :clap:学習教材と製作者様
 https://www.techpit.jp/courses/47
 (※この教材は有料です。)
 <br>講師:鴛海 直輝 様
